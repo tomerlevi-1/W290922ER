@@ -1,0 +1,16 @@
+.transition {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+
+  overflow: hidden;
+
+  transition: width 5s 2s;
+}
+
+.transition:hover {
+  transition: width 3s,background-color 3s;
+  background-color: orangered;
+  width: 100%;
+}
